@@ -42,8 +42,8 @@
             <table style="width: 100%;">
                 <tr>
                     <td>
-                        <a href="<?=site_url('/')?>">
-                            <img src="<?=site_url('img/logo.png')?>" style="margin: 16px 0;">
+                        <a href="/">
+                            <img src="img/logo.png" style="margin: 16px 0;">
                         </a>
                     </td>
                     <td style="vertical-align: middle; text-align: right;">
