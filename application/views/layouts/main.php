@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru" ng-app="mainApp">
+<html ng-app="mainApp">
 <head>
     <meta charset="UTF-8">
     <meta content="<?=$this->description?>" name="description">

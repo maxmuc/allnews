@@ -1,12 +1,10 @@
-AddDefaultCharset utf-8
-
-#php_flag display_errors off
-
-RewriteEngine On
+# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
 RewriteBase /
-RewriteCond $1 !^(index\.php|css|images|robots\.txt)
+RewriteEngine on
+# if a directory or a file exists, use it directly
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php/$1 [L]
-AddDefaultCharset utf-8
-AddType 'text/html; charset=utf-8' .html .htm .shtml
+# otherwise forward it to index.php
+RewriteRule . index.php
+RewriteRule ^install\/ ./index.php?r=install/main/index [L,QSA]
+addDefaultCharset utf-8
