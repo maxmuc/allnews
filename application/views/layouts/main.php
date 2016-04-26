@@ -43,7 +43,7 @@
                 <tr>
                     <td>
                         <a href="/">
-                            <img src="img/logo.png" style="margin: 16px 0;">
+                            <img src="/img/logo.png" style="margin: 16px 0;">
                         </a>
                     </td>
                     <td style="vertical-align: middle; text-align: right;">
@@ -87,7 +87,7 @@
                             $active = '';
                             if($this->uri->segment(1) == $row['url']){ $active = 'class="active"'; } ?>
                             <li <?=$active?>>
-                                <a href="<?=site_url($row['url'])?>"><?=$row['name']?></a>
+                                <a href="<?=$row['url']?>"><?=$row['name']?></a>
                             </li>
                         <?php endforeach; endif; ?>
                 </ul>
