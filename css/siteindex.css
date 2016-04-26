@@ -1,0 +1,123 @@
+.zag{
+    color: #444;
+    text-transform: uppercase;
+    border-bottom: 1px solid #e2e2e2;
+}
+.zag span{
+    color: #2570bb;
+}
+.title{
+    text-transform: uppercase;
+    color: #2570bb;
+    padding: 5px 0;
+    border-top: 1px solid #ddd;
+}
+.text{
+    color: #444;
+    font-size: 90%;
+}
+.entre .title:first-child{
+    border: none;
+}
+
+.readMore{
+    /*background-position: 0 -50px;*/
+    /*border-color: #cfcfcf #cfcfcf #b5b5b5;*/
+    border-radius: 2px;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(0, 0, 0, 0) url("../img/button_more.png") repeat-x scroll 0 0;
+    /*border-color: #d9d9d9 #d9d9d9 #bfbfbf;*/
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 1) inset, 0 1px 1px rgba(0, 0, 0, 0.05);
+    color: #777;
+    font-size: 11px;
+    line-height: 16px;
+    padding: 4px 8px 4px !important;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    display: inline-block;
+    text-decoration: none;
+}
+.readMore:hover{
+    background-position: 0 -50px;
+    border-color: #cfcfcf #cfcfcf #b5b5b5;
+    /*border-color: #a2a2a2 #cfcfcf #cfcfcf;*/
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) inset;
+}
+.r3{
+    height: 260px;
+}
+.dReadMore{
+    text-align: right;
+    margin-top: 18px;
+}
+.dImg{
+    margin: 5px 0;
+}
+.dImg img{
+    width: 224px;
+    height: auto;
+    margin: 0;
+    float: none !important;
+}
+
+.weather{
+    background: #317ac4 url("../img/module_box_color.png") repeat-x scroll 0 0;
+    border: 1px solid #245b92;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    padding: 0;
+}
+.SinoptikInformer .siBody{
+    background: none;
+}
+
+.siCityName11{
+    /*margin: 1px 0;*/
+}
+
+.siCityName11 a{
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.block3{
+    height: 90px;
+    width: 100%;
+}
+
+.prev {
+    background: rgba(0, 0, 0, 0) url("../img/buttons.png") no-repeat scroll 0 0;
+    height: 25px;
+    background-position: 0 0;
+    left: 15px;
+    /*margin-top: -12px;
+    top: 50%;*/
+    width: 25px;
+    /*float: left;*/
+}
+.prev:hover{
+    background-position: 0 -30px;
+}
+.next {
+    background: rgba(0, 0, 0, 0) url("../img/buttons.png") no-repeat scroll 0 0;
+    background-position: 0 -90px;
+    height: 25px;
+    width: 25px;
+}
+.next:hover{
+    background-position: 0 -120px;
+}
+
+.cur>div:first-child{
+    border-right: 1px solid #ddd;
+}
+.cur>div:last-child{
+    border-left: 1px solid #ddd;
+}

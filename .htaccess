@@ -1,0 +1,12 @@
+AddDefaultCharset utf-8
+
+#php_flag display_errors off
+
+RewriteEngine On
+RewriteBase /
+RewriteCond $1 !^(index\.php|css|images|robots\.txt)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php/$1 [L]
+AddDefaultCharset utf-8
+AddType 'text/html; charset=utf-8' .html .htm .shtml

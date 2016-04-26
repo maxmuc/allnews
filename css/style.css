@@ -1,0 +1,126 @@
+body{
+    font-family: "RobotoRegular", sans-serif !important;
+    background: #ededed none repeat scroll 0 0;
+    color: #727476;
+    margin: 0;
+    padding: 0;
+}
+
+a{outline: none !important; /* Убираем границу вокруг ссылок  */}
+
+/******adminka******/
+.adminka .navbar{
+    height: 0;
+    min-height: 28px;
+}
+.adminka .navbar-nav a{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.adminka .navbar-text{
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+/******adminka the end******/
+
+.mainDiv{
+    width: 970px;
+    margin: 0 auto;
+}
+
+.myBtnSearch{
+    background-position: 0 -50px;
+    border-color: #cfcfcf #cfcfcf #b5b5b5;
+    border-radius: 2px;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(0, 0, 0, 0) url("../img/button_more.png") repeat-x scroll 0 0;
+    /*border-color: #d9d9d9 #d9d9d9 #bfbfbf;*/
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 1) inset, 0 1px 1px rgba(0, 0, 0, 0.05);
+    color: #777;
+    font-size: 11px;
+    line-height: 16px;
+    padding: 7px 16px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+}
+.myBtnSearch:hover{
+    background-position: 0 0;
+}
+
+.block{
+    background: #ffffff none repeat scroll 0 0 padding-box;
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.06);
+    margin-bottom: 4px;
+    padding: 10px;
+}
+.firstRow>div{
+    padding: 0 2px;
+}
+
+.footer{
+    background: url(../img/index.png) repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+    font-size: 80%;
+    color: #777777;
+    padding-top: 7px;
+}
+
+/***********nav***************/
+.contactMenu{
+    text-align: right;
+    padding-right: 10px;
+    background: #313131;
+}
+.contactMenu ul{
+    margin: 0;
+    padding: 5px 0;
+}
+.contactMenu li{
+    display: inline;
+    margin: 0 3px;
+}
+.contactMenu li a{
+    color: #ccc;
+}
+/***********mainMenu*************/
+#mainMenu {
+    background: rgba(0, 0, 0, 0) url("../img/menubar.png") repeat-x scroll 0 0;
+    height: 57px;
+    display:table;
+    width:100%;
+    border-collapse:collapse;
+    margin: 0;
+    padding: 0;
+}
+#mainMenu li{
+    display:table-cell;
+    /*background-color: rgb(185, 0, 4);*/
+    /*background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(251, 254, 254, 1), rgba(190, 190, 190, 1)) repeat scroll 0 0;*/
+    text-align:center;
+}
+#mainMenu li a{
+    display: inline-block;
+    color: #d6e5f3;
+    padding: 16px;
+    vertical-align: middle;
+    font-size: 110%;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#mainMenu li:hover, #mainMenu li.active, #mainMenu li:hover a, #mainMenu li.active a{
+    /*background: rgb(185, 0, 4) none repeat scroll 0 0;*/
+    color: #fff;
+
+}
+/***********mainMenu The End*********/
+/***********nav***************/
